@@ -141,11 +141,6 @@ h5 {
   margin: auto;
 }
 
-.button>h5 {
-  vertical-align: middle;
-  display: table-cell;
-}
-
 .benefits-text {
   height: 100%;
   color: #606161;
@@ -211,7 +206,8 @@ h4 {
 #cta-div>.button {
   background: #033048;
   color: white;
-  width: 10rem;
+  width: 12rem;
+  max-height: 3rem;
   margin: auto;
   display: block;
   margin-top: .6%;
@@ -220,6 +216,8 @@ h4 {
 
 #cta-div h5 {
   text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 footer {
