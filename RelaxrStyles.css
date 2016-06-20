@@ -100,9 +100,12 @@ body {
 /* Change from absolute path to relative path */
 header {
   background: url(starter_code/images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
-  height: 70rem;
+      background-size: 100% 100%;
   margin: auto 0;
+  height: 40rem;
+  display: table;
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
@@ -117,7 +120,9 @@ h1 {
 h2 {
   font-size: 2.4rem;
   font-weight: 400;
-  padding-top: 18%;
+  margin: auto 0;
+  vertical-align: middle;
+  display: table-cell;
 }
 
 /* Why is this button div not centering on the page? */
@@ -134,7 +139,11 @@ h2 {
 h5 {
   font-size: 1.4rem;
   margin: auto;
-  padding-top: 5%;
+}
+
+.button>h5 {
+  vertical-align: middle;
+  display: table-cell;
 }
 
 .benefits-text {
@@ -169,7 +178,7 @@ ul {
 /* Change from absolute path to relative path */
 .quotation {
   background: url(starter_code/images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+      background-size: 100% 100%;
   height: 30rem;
 }
 
@@ -202,7 +211,7 @@ h4 {
 #cta-div>.button {
   background: #033048;
   color: white;
-  width: 10%;
+  width: 10rem;
   margin: auto;
   display: block;
   margin-top: .6%;
