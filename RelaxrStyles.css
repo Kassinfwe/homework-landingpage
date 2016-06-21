@@ -10,14 +10,14 @@ Developer @GA in NYC
 24px = 2.4rem = h2, weight: 400
 20px = 2rem = h3, weight: 400
 18px = 1.8rem = h4, weight: 300italic
-14px = 1.4rem = h5, weight: 800
+14px = 1.4rem = h5, weight: 600
 13px = 1.3rem = p, weight: 400
 12px = 1.2rem = p, weight: 400
 9 px = .9rem = p, weight: 400
 
 "Relaxr" - Extra bold, 24px 
 "Get piece of mind with a single tap" - Regular, 24px 
-"Get it Now" - Extra bold, 14px. 5px border radius 
+"Get it Now" - Semi bold, 14px. 5px border radius 
 "Benefits" - Regular, 20px 
 "The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px 
 "...List..." - Light, 13px
@@ -120,20 +120,18 @@ h2 {
   display: table-cell;
 }
 
+
 /* Why is this button div not centering on the page?!??!?!!?!?!?!?!?!? */
-.button {
+button {
   border-radius: .5rem;
   background: #f9e42e;
-  width: 10rem;
+  width: 15rem;
   height: 3rem;
-  font-weight: 800;
+  font-weight: 600;
   color: #033048;
   margin: auto;
-}
-
-h5 {
   font-size: 1.4rem;
-  margin: auto;
+  font-family:'Open Sans', sans-serif;
 }
 
 #benefits {
@@ -172,7 +170,7 @@ ul {
   padding-top: 5%;
 }
 
-#quotation p {
+q {
   font-weight: 300;
   font-style: italic;
   font-size: 1.8rem;
@@ -181,9 +179,11 @@ ul {
   margin: auto;
 }
 
-h4 {
+#quotation footer {
   font-weight: 400;
   font-size: 1.8rem;
+  background: none;
+  padding-top: 2rem;
 }
 
 #cta-div {
@@ -192,19 +192,14 @@ h4 {
   width: 100%;
   margin: auto;
   display: table;
-  text-align: center;
-  column-width: 10rem;
-  column-count: 6;
 }
 
-#cta-div>.button {
+#cta-div>button {
   background: #033048;
   color: white;
-  width: 12rem;
-  max-height: 3rem;
+  width: 14rem;
+  height: 3rem;
   margin: auto;
-  display: table-cell;
-  vertical-align: middle; 
 }
 
 footer {
